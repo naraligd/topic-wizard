@@ -13,7 +13,7 @@ import topicwizard
 app = topicwizard.load_app(filename="topic_data.joblib")
 
 # Then you can run the server from the file manually:
-if __name__ == "__app__":
+if __name__ == "__main__":
     app.run_server(debug=False)
     # app.run_server(debug=False, port=8050)
 
